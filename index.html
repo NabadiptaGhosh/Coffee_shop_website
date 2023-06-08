@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffee shop</title>
+    <!--[font awesome cdn link]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header Section Starts-->
+<header class="header">
+    <a href="#" class="logo">
+        <img src="images/LOGO.jpg" height="70" class="check" alt="">
+    </a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div> 
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here....">
+        <label for="search-box" class="fas fa-search"></label> <!-- searchbox er id use kore tarpor iconer class diachi jate searchboxer pase icon ta use korte pari -->
+        
+    </div>
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            
+            <img class="one" src="images/cart-item-100.jpg" alt="">
+            <div class="content">
+                <h3> cart item 01</h3>
+                <div class="price">500.00/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img class="two" src="images/cart-item-200.jpg" alt="">
+            <div class="content">
+                <h3> cart item 02</h3>
+                <div class="price">550.00/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img class="three" src="images/cart-item-300.jpg" alt="">
+            <div class="content">
+                <h3> cart item 03</h3>
+                <div class="price">1000.00/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img class="four" src="images/cart-item-400.jpg" alt="">
+            <div class="content">
+                <h3> cart item 04</h3>
+                <div class="price">450.00/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Checkout Now </a>  
+        
+    </div>
+</header>
+<!-- Header Section Ends-->
+
+<!-- Home Section Starts-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three most popular beverages in the world (alongside water and tree) and it is one of the most profitable international commodities.</p>
+        <a href="#" class="btn">Get it Now </a>  
+    </div>
+</section>
+<!-- Home Section Ends-->
+
+<!-- About Section Starts-->
+<section class="about" id="about">
+    <h1 class="heading"> <span> about </span> us </h1> 
+    <div class="row">
+        <div class="image">
+            <img src="images/about-img.jpg" height="650" width="650"alt="">
+        </div>
+        <div class="content">
+            <h3>what makes our coffee special?</h3>
+            <p> The first thing that comes to mind when thinking about specialty coffee is its advanced quality. The flavors hidden in a cup of coffee are rich and crisp, and this comes not just from the quality of the specialty coffee beans, but from the work ethic and dedication put into it by the farmer. Countries like Ethiopia, Kenya and Colombia are known for producing some of the best specialty coffees in the world. Specialty coffee can only be grown in ideal conditions; if the seed is planted in the wrong spot, in the wrong soil, or even at the wrong altitude, then the coffee will lose its special certification. Farmers have to take special care to ensure that the beans are harvested at the right time to get maximum flavor from them.The beans should then be delivered swiftly to the mill to preserve the freshness and potential of the coffee beans. The beans should then be carefully processed and special attention should be given to ensure that the bean is not dried unevenly, insufficiently, too slowly, or too quickly, as this will reduce its chances of being graded special. The barista will also need to pay heed to the fact that utmost precision is needed to bring out the best from these carefully harvested and processed beans.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div> 
+</section>
+<!-- About Section Ends-->
+
+<!-- Menu Section Start-->
+<section class="menu" id="menu">
+    <h1 class="heading"><span> Our</span> Menu </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/menu1.jpg" alt="">
+            <h3>Long Macchiato </h3>
+            <div class="price"> Rs.130/- <span> Rs.170/-</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu2.jpg"  alt="">
+            <h3> Cafe au Lait</h3>
+            <div class="price"> Rs.250/- <span> Rs.350/-</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu3.jpg" alt="">
+            <h3> Black Eye</h3>
+            <div class="price"> Rs.200/- <span> Rs.250/-</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu4.jpg"  alt="">
+            <h3> Americano</h3>
+            <div class="price"> Rs.350/- <span> Rs.500/-</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu5.jpg" alt="">
+            <h3> Double Espresso</h3>
+            <div class="price"> Rs.350/- <span> Rs.400/-</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu6.jpg" alt="">
+            <h3> Flat White</h3>
+            <div class="price"> Rs.130/- <span> Rs.200/-</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- Menu Section End-->
+
+<!--  Products Section Start-->
+<section class="products" id="products">
+    <h1 class="heading"> our <span>products</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product1.png" height="250" alt="">
+            </div>
+            <div class="content">
+                <h3>Classic Instant Coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Rs.1500/- <span>Rs.2500/-</span></div>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product2.jpg" height="200" width="200" alt="">
+            </div>
+            <div class="content">
+                <h3>Instant Aromatic Coffee	</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs.2500/- <span> Rs.3000/-</span></div>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product3.jpg" height="200" width="150" alt="">
+            </div>
+            <div class="content">
+                <h3>Grand Instant Coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Rs.800/- <span>Rs.1000/-</span></div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--  Products Section End-->
+
+<!--review section starts-->
+<section class="review" id="review">
+    <h1 class="heading">CUSTOMER'S <span>REVIEW</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/quote-img.jpg" height="40" alt="" class="quote">
+            <p>If you’re looking for a place where to relax and read some novels or whatever, this coffee shop would be the best. They have the best coffee available and even some fresh baked goods as well. The ambiance of this shop was so relaxing, and the staffs are highly capable. I could not ask for more because everything that I needed was provided. Well done, guys! Keep making great coffee and pastries!</p>
+            <img src="images/profile.jpg" height="100" class="user" alt="">
+            <h3>Nabadipta Ghosh</h3>
+            <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+        </div>
+        <div class="box">
+            <img src="images/quote-img.jpg" height="40" alt="" class="quote">
+            <p>I've been wanting to try this coffee for a long time now and it was definitely worth the wait! It's lovely, much smoother than I thought it would be. I will most definitely be ordering again. The delivery time was brilliant as well. I ordered late on a Thursday night and received it on Saturday, I only paid for standard delivery. I would recommend this coffee and company to anyone. Thank you.</p>
+            <img src="images/her4.jpg" height="100" class="user" alt="">
+            <h3>Sonai Das</h3>
+            <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+        </div>
+        <div class="box">
+            <img src="images/quote-img.jpg" height="40" alt="" class="quote">
+            <p> Like a lot of people, I watched the Bucket List. I researched kopi Luwak and ultimately purchased some. I'm not exactly a connoisseur of coffee, however I do like a strong filter coffee now and again. Kopi Luwak is what you would expect it to be for the price you have to pay. It's not something I would offer to random visitors to my home though, it's too nice for that - I'll be keeping it for myself.</p>
+            <img src="images/both.jpg" height="100" class="user" alt="">
+            <h3>Both</h3>
+            <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!--review section end->
+
+<!-- contact Section Start-->
+<section class="contact" id="contact">
+    <h1 class="heading"> <span>contact</span> us</h1>
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58785.32036304552!2d88.39268124373977!3d22.947187757638495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f895ebf8238973%3A0x13b0d5e301d63c8b!2sBagmore%20Auto%20Stand!5e0!3m2!1sen!2sin!4v1682950206798!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+</section>
+<!--contact section end-->
+
+<!-- Blogs section start-->
+<section class="blogs" id="blogs">
+    <h1 class="heading">Our <span> Blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+            <img src="images/blog1.jpg" height="100" alt="">
+            </div>
+            <h3>Tasty Coffee</h3>
+            <h4>By Admin/9th May, 2023</h4>
+            <p>If you’re interested in becoming a more informed coffee drinker, Coffee Review is the best coffee blog to begin your journey.This blog, which has been running for over two decades, starts from the premise that coffee is as nuanced and complex a beverage as wine is, and deserves similarly clear and rigorous criteria for assessment. The aroma, acidity, body, flavor, and aftertaste of coffees are rated, and the fullness of the coffee experience unfolds. </p>
+            <a href="#" class="btn"> Read More </a> 
+
+        </div>
+        <div class="box">
+            <div class="image">
+            <img src="images/blog2.jpg" height="100" alt="">
+            </div>
+            <h3>Tasty and Mind freshing Coffee</h3>
+            <h4>By Admin/15th February, 2023</h4>
+            <p>I Need Coffee, started nearly 20 years ago by coffee enthusiast Michael Allen Smith, has stayed true to its mission: celebrating coffee and helping readers make the best possible coffee at home.Through tutorials on topics like using an upside-down AeroPress, making low-tech traditional coffees like Turkish coffee, or using a CoffeeSock, I Need Coffee helps readers maximize the home coffee experience. You’ll even find ambitious and fun projects. </p>
+            <a href="#" class="btn"> Read More </a> 
+
+        </div>
+        <div class="box">
+            <div class="image">
+            <img src="images/blog3.jpg" height="100" alt="">
+            </div>
+            <h3>Tasty and Refreshing Coffee</h3>
+            <h4>By Admin/15th October, 2021</h4>
+            <p>If you’re interested in becoming a more informed coffee drinker, Coffee Review is the best coffee blog to begin your journey.This blog, which has been running for over two decades, starts from the premise that coffee is as nuanced and complex a beverage as wine is, and deserves similarly clear and rigorous criteria for assessment. The aroma, acidity, body, flavor, and aftertaste of coffees are rated, and the fullness of the coffee experience unfolds. </p>
+            <a href="#" class="btn"> Read More </a> 
+
+        </div>
+    </div>
+</section>
+<!--Blogs section end-->
+<section class="footer">
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+        <a href="#">blogs</a>
+
+    </div>
+    <div class="credit">created by <span>Mr. Nabadipta Ghosh</span> | all rights reserved</div>
+
+</section>
+
+<!--footer section start-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/script.js"></script>
+
+    
+</body>
+</html>
